@@ -209,7 +209,7 @@ class RegisterViewController: UIViewController {
                 return
             }
             
-            guard !exists else {
+            guard exists else {
                 strongSelf.alertUserLoginError(message: "Looks like a userr accout for that email address already exists.")
                 return
             }
