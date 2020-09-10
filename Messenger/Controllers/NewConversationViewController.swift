@@ -37,6 +37,7 @@ class NewConversationViewController: UIViewController {
         return label
     }()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
